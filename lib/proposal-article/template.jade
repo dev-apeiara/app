@@ -1,8 +1,8 @@
 - var closed = proposal.closed
 .inner-container
-  - var learnMore = config['learn more url']
+  - var learnMore = false
   - if (learnMore)
-    div.alert.alert-warning.alert-dismissable.system-alert
+      div.alert.alert-warning.alert-dismissable.system-alert
       button(type="button", class="close", data-dismiss="alert", aria-hidden="true")
       span #{t('proposal-article.article.alert.text')}&nbsp;&nbsp;
       a.alert-link(href=learnMore, target="_blank") #{t('proposal-article.article.alert.learn-more')}

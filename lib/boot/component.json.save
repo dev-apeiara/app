@@ -39,8 +39,9 @@
     "images/touch-icon-ipad-retina.png",
     "images/logo.png",
     "images/konsento.png",
-    "images/rede.png",
-    "images/cicote.png"
+        "images/logo.png"
+
+
   ],
   "main": "boot.js"
 }
